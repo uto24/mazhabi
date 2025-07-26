@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup & Login - Akta Foum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Signup Form -->
+    <div id="signup-form">
+        <h2>Create Account</h2>
+        <form id="signupForm">
+            <div class="form-group"><label for="displayName">Display Name:</label><input type="text" id="displayName" required></div>
+            <div class="form-group"><label for="realName">Real Name:</label><input type="text" id="realName" required></div>
+            <div class="form-group"><label for="signup-email">Email:</label><input type="email" id="signup-email" required></div>
+            <div class="form-group"><label for="signup-password">Password:</label><input type="password" id="signup-password" minlength="6" required></div>
+            <div class="form-group"><label for="country">Country:</label><input type="text" id="country" required></div>
+            <div class="form-group"><label for="age">Age:</label><input type="number" id="age" required></div>
+            <div class="form-group"><label for="interest">Interests:</label><input type="text" id="interest" placeholder="e.g., Gaming, Reading" required></div>
+            <div class="form-group"><label for="telegram">Telegram Username (Optional):</label><input type="text" id="telegram" placeholder="@username"></div>
+            <button type="submit" class="secondary">Signup</button>
+        </form>
+        <p class="toggle-link" id="show-login">Already have an account? Login</p>
+    </div>
+
+    <!-- Login Form -->
+    <div id="login-form" style="display: none;">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group"><label for="login-email">Email:</label><input type="email" id="login-email" required></div>
+            <div class="form-group"><label for="login-password">Password:</label><input type="password" id="login-password" required></div>
+            <button type="submit">Login</button>
+        </form>
+        <p class="toggle-link" id="show-signup">Don't have an account? Signup</p>
+    </div>
+
+    <div id="message"></div>
+</div>
+
+<!-- Firebase SDKs & Our Script -->
+<script type="module" src="script.js"></script>
+
+</body>
+                                                                                                          </html>
