@@ -1,0 +1,150 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Container for Forms and Content */
+.container {
+    background: white;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #1c1e21;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #1877f2;
+    outline: none;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+button.secondary {
+    background-color: #42b72a;
+}
+button.secondary:hover {
+    background-color: #36a420;
+}
+
+button.logout {
+    background-color: #fa3e3e;
+}
+button.logout:hover {
+    background-color: #e33030;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Toggle Link (e.g., "Already have an account?") */
+.toggle-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    color: #1877f2;
+    font-weight: 500;
+}
+.toggle-link:hover {
+    text-decoration: underline;
+}
+
+/* Message Div for notifications */
+#message, #payment-message {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+/* Admin Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+th, td {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    width: auto;
+}
