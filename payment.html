@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Akta Foum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Payment Section</h1>
+    <p>Please choose your payment method.</p>
+    
+    <div class="payment-options">
+        <button id="binance-pay-button">Pay with Binance Pay</button>
+        <button id="rix-coin-button" style="margin-top: 1rem;" class="secondary">Pay with Rix Coin (via other site)</button>
+    </div>
+
+    <div id="payment-message" style="margin-top: 1rem;"></div>
+    
+    <a href="dashboard.html" style="text-decoration: none;"><button id="back-button" class="logout" style="margin-top: 1.5rem;">Back to Dashboard</button></a>
+</div>
+
+<!-- Firebase SDKs & Our Script -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
