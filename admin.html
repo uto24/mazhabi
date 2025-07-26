@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Akta Foum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" style="max-width: 800px;">
+    <div id="admin-content" style="display: none;">
+        <h1>User Management</h1>
+        <p>Here you can approve new user accounts.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Real Name</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="user-list">
+                <!-- User data will be loaded here by script.js -->
+            </tbody>
+        </table>
+        <button id="logout-button" class="logout" style="margin-top: 1.5rem;">Logout</button>
+    </div>
+
+    <div id="loading-or-error">
+        <h2>Loading...</h2>
+        <p>Checking your admin credentials. Please wait.</p>
+    </div>
+</div>
+
+<!-- Firebase SDKs & Our Script -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
