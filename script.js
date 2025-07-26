@@ -26,7 +26,7 @@ import {
 // আপনার Firebase কনফিগারেশন (আপনার নিজের কী দিয়ে রিপ্লেস করুন)
 // =================================================================
 const firebaseConfig = {
-    apiKey: "AIzaSyC7...YOUR_API_KEY",
+    apiKey: "AIzaSyC7FHdrjaDV_AUmT7mphxkKf7IGnmM_LMc",
     authDomain: "webapp-5a18c.firebaseapp.com",
     projectId: "webapp-5a18c",
     storageBucket: "webapp-5a18c.appspot.com",
